@@ -41,6 +41,6 @@ echo $?
 ```
 
 
-NOTES:
-(1) Assuming those are supported which is a _reasonably_ safe assumption
-(2) Depending how dilligently the copy was made etc.. 
+NOTES:    
+(1) Assuming those are supported which is a _reasonably_ safe assumption    
+(2) Depending how dilligently the copy was made etc..    
