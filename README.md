@@ -30,7 +30,7 @@ And next time ./load is run the shellcode will be executed
 ./load
 Yello World 
 ```
-However.. copies of the file that are made for backups etc don't work the same way..(2) 
+However.. copies of the file that are made for backups etc don't work the same way..(2)   
 e.g
 
 ```
@@ -43,4 +43,4 @@ echo $?
 
 NOTES:    
 (1) Assuming those are supported which is a _reasonably_ safe assumption    
-(2) Depending how dilligently the copy was made etc..    
+(2) Depending how diligently the copy was made etc..    
