@@ -26,7 +26,7 @@ int main(int argc, char **argv)
      
     if((strlen(argv[2]) != 16) || (strlen(argv[3]) != 16))
     {
-        printf("Key and IV must be 16 characters exactly!\n"); 
+        printf("Key and IV must be 16 characters each exactly!\n"); 
         exit(1); 
     }
 
