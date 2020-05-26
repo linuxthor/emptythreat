@@ -3,9 +3,9 @@
 Linux proof of concept that loads and executes AES encrypted shellcode from extended file attributes(1)  
 
 Uses the excellent tiny-AES-C https://github.com/kokke/tiny-AES-c  
-
-load.c - This file will fetch key, iv and encrypted data from extended attributes. Data is decrypted and executed in memory. 
-put.c  - This file will configure the extended attributes on a 'load' binary such that shellcode executes. 
+   
+load.c - This file will fetch key, iv and encrypted data from extended attributes. Data is decrypted and executed in memory   
+put.c  - This file will configure the extended attributes on a 'load' binary such that shellcode executes   
 
 This PoC explores an unusual method and location to store code. Copies of the file will not run the same as the original unless they have also been 'blessed' with the extended attributes. 
 
