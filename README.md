@@ -11,6 +11,8 @@ This PoC explores an unusual method and location to store code. Copies of the fi
 
 The code can be neutralised by removing any of those extended attributes.. 
 
+Build as:
+
 ```
 gcc -Wall -o load load.c aes.c
 gcc -Wall -o put put.c aes.c
